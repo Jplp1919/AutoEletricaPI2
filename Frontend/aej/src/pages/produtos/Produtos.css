@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+  background-color: #28272A;
+  color: #A7A7A7;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* NavBar de Informações */
+.nav-list{
+  margin: 5%;
+}
+
+.nav-list li{
+  display: inline;
+  padding: 25px;
+}
+
+.nav-list li a{
+  text-decoration: none;
+}
+
+.nav-list li a:hover{
+  color: #7047EB;
+  transition: background .3s;
+}
+
+/* Formulário */
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form form{
+  max-width: 40%;
+  padding: 50px 90px;
+}
+
+.text-field {
+  margin: 30px auto;
+}
+
+.text-field input{
+  border: 0;
+  width: 100%;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  padding: 14px 20px;
+  outline: none;
+  color: #A7A7A7;
+  border-radius: 24px;
+  transition: 0.25s;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+
+/* Select */
+
+.custom-select{
+  border: 0;
+  width: 100%;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 1px solid;
+  padding: 14px 20px;
+  outline: none;
+  color: #A7A7A7;
+  border-radius: 24px;
+  transition: 0.25s;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+.btn{
+  float: center;
+  text-align: center;
+  padding: 20px 40px;
+  display: inline-flex;
+}
+
+.btn-on{
+  border: 0;
+  background: #7047EB;
+  display: block;
+  margin: 20px 20px;
+  text-align: center;
+  border: none;
+  padding: 14px 40px;
+  outline: none;
+  color: #A7A7A7;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.btn-on:hover{
+  background-color: #4d21d0;
+}
+
+.btn-off{
+  border: 0;
+  background: #A7A7A7;
+  display: block;
+  margin: 20px 20px;
+  text-align: center;
+  border: none;
+  padding: 14px 40px;
+  outline: none;
+  color: #28272A;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.btn-off:hover{
+  background-color: #4d21d0;
+}
+

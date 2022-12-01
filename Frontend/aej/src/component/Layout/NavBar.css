@@ -1,0 +1,42 @@
+
+.menu {
+    display: inline;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu-user{
+    float:right;
+  }
+
+  .menu li {
+    color: #A7A7A7;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .3s;
+  }
+  
+  .menu li:hover {
+    background-color: #1f1f21;
+  }
+  
+  /*
+  .search {
+    position: absolute;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid;
+    outline: none;
+    color: #A7A7A7;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  */
+
+
+  

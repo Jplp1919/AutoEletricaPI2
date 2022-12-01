@@ -1,0 +1,38 @@
+
+*{
+  background-color: #28272A;
+  color: #A7A7A7;
+}
+
+
+.container{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.container a{
+  float: left;
+  display: block;
+  width: 144px;
+  text-align: center;
+  padding: 20px, 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.container a:hover{
+    color: #7047EB;
+    transition: background .3s;
+}
