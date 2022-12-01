@@ -15,7 +15,6 @@ function NavBar() {
                     </Link>
                 </li>
 
-               
 
                 <li className="menu-user">
                     Usuário
