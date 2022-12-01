@@ -26,35 +26,7 @@ function Pesquisa() {
         </form>
       </div>
 
-      <div className="table-cont">
-        <table>
-          <tr>
-            <th>Cliente</th>
-            <th>Veículo</th>
-            <th>Placa</th>
-          </tr>
-          <tr>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-          <tr>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-          <tr>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-          <tr>
-            <td>--</td>
-            <td>--</td>
-            <td>--</td>
-          </tr>
-        </table>
-      </div>
+     
 
       <div className="navBtn">
         <button className="btn-on"><Link to="/Veiculos"><a>Detalhes</a></Link></button>
