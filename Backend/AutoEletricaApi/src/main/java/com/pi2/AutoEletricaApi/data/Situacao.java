@@ -12,6 +12,7 @@ import javax.persistence.Table;
 public class Situacao {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)        
     Integer idsituacao;
     
     @Column

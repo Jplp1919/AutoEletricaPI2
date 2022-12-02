@@ -4,11 +4,8 @@ import com.pi2.AutoEletricaApi.data.Pessoa;
 import com.pi2.AutoEletricaApi.data.Situacao;
 import com.pi2.AutoEletricaApi.util.JPAUtil;
 
-import java.time.LocalDate;
 import java.util.List;
 import javax.persistence.EntityManager;
-import javax.persistence.NoResultException;
-import org.apache.catalina.Manager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -35,7 +32,6 @@ public class PessoaDaoTest {
     @Test
     void deveriaCadastrarUmaPessoa() {
         Situacao s = new Situacao();
-        s.setId_situacao(983);
         s.setAtivo(2);
         em.persist(s);
         Pessoa pessoa = new Pessoa();
@@ -118,7 +114,6 @@ public class PessoaDaoTest {
     @Test
     void deveRetornarDadosDaPessoaCadastradaCorretamente() {
         Situacao s = new Situacao();
-        s.setId_situacao(983);
         s.setAtivo(2);
         em.persist(s);
         Pessoa pessoa = new Pessoa();
@@ -153,7 +148,6 @@ public class PessoaDaoTest {
     @Test
     void deveDeletarUmaPessoa() {
         Situacao s = new Situacao();
-        s.setId_situacao(983);
         s.setAtivo(2);
         em.persist(s);
         Pessoa pessoa = new Pessoa();
